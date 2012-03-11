@@ -1,0 +1,28 @@
+2012-03-11 14:35:25 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+#0 /opt/lampp/lib/php/Cake/Model/Model.php(3380): Model->setSource('tickets')
+#1 /opt/lampp/lib/php/Cake/Model/Model.php(1278): Model->getDataSource()
+#2 /opt/lampp/lib/php/Cake/View/Helper/FormHelper.php(191): Model->schema()
+#3 /opt/lampp/lib/php/Cake/View/Helper/FormHelper.php(444): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /home/gautam/public_html/Sci-Cake/sci-cake/View/Tickets/index.ctp(20): FormHelper->create('Ticket', Array)
+#5 /opt/lampp/lib/php/Cake/View/View.php(908): include('/home/gautam/pu...')
+#6 /opt/lampp/lib/php/Cake/View/View.php(872): View->_evaluate('/home/gautam/pu...', Array)
+#7 /opt/lampp/lib/php/Cake/View/View.php(463): View->_render('/home/gautam/pu...')
+#8 /opt/lampp/lib/php/Cake/Controller/Controller.php(962): View->render(NULL, NULL)
+#9 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(110): Controller->render()
+#10 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-03-11 14:36:07 Error: [MissingTableException] Table tickets for model Ticket was not found in datasource default.
+#0 /opt/lampp/lib/php/Cake/Model/Model.php(3380): Model->setSource('tickets')
+#1 /opt/lampp/lib/php/Cake/Model/Model.php(1278): Model->getDataSource()
+#2 /opt/lampp/lib/php/Cake/View/Helper/FormHelper.php(191): Model->schema()
+#3 /opt/lampp/lib/php/Cake/View/Helper/FormHelper.php(444): FormHelper->_introspectModel('Ticket', 'fields')
+#4 /home/gautam/public_html/Sci-Cake/sci-cake/View/Tickets/index.ctp(20): FormHelper->create('Ticket', Array)
+#5 /opt/lampp/lib/php/Cake/View/View.php(908): include('/home/gautam/pu...')
+#6 /opt/lampp/lib/php/Cake/View/View.php(872): View->_evaluate('/home/gautam/pu...', Array)
+#7 /opt/lampp/lib/php/Cake/View/View.php(463): View->_render('/home/gautam/pu...')
+#8 /opt/lampp/lib/php/Cake/Controller/Controller.php(962): View->render(NULL, NULL)
+#9 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(110): Controller->render()
+#10 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
