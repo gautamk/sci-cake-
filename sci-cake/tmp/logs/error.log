@@ -26,3 +26,21 @@
 #10 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TicketsController), Object(CakeRequest), Object(CakeResponse))
 #11 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2012-03-11 16:51:48 Error: [MissingControllerException] Controller class TickeetsController could not be found.
+#0 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-11 17:17:33 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-11 17:18:24 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-11 17:19:01 Error: [MissingActionException] Action FormsController::4f5ccbd1740f1ff099b7bc76() could not be found.
+#0 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(FormsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
