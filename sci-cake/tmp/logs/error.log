@@ -44,3 +44,9 @@
 #1 /opt/lampp/lib/php/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(FormsController), Object(CakeRequest), Object(CakeResponse))
 #2 /home/gautam/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-03-16 21:20:53 Error: [MissingControllerException] Controller class FormresponsesController could not be found.
+#0 /home/archer/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-16 21:27:00 Error: [MissingControllerException] Controller class FormResponseController could not be found.
+#0 /home/archer/public_html/Sci-Cake/sci-cake/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

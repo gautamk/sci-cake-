@@ -2,7 +2,10 @@
 $form=array(
 
             "name"=>"Registration",
-            "options"=>array("type"=>"post"),
+            "options"=>array(
+                "type"=>"post",
+                'url' => array('controller' => 'FormResponses', 'action' => 'index'),
+            ),
             "inputs" => array(
                 "username"=>array(
                     "placeholder"=>"Enter your username",
